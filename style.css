@@ -1,0 +1,160 @@
+
+
+.mainContainer {
+  background-color: black;
+  height: 450px;
+  border: 5px solid gray;
+  margin: 0 auto;
+  position: relative;
+}
+
+.firstBox {
+  background-color: white;
+  max-width: 60%;
+  height: 60%;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  border-radius: 5px;
+}
+
+.secondBox {
+  background-color: #ec407a;
+  max-width: 42%;
+  height: 20%;
+  position: absolute;
+  top: 67px;
+  left: 10rem;
+  border-radius: 5px;
+}
+.textH {
+  font-family: system-ui;
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textB {
+  padding: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+  left: 88px;
+  font-family: system-ui;
+}
+
+@media (max-width: 770px) {
+  .mainContainer {
+    background-color: black;
+    height: 450px;
+    border: 5px solid gray;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .firstBox {
+    background-color: white;
+    max-width: 60%;
+    height: 60%;
+    position: relative;
+    top: 100px;
+    left: 60px;
+    border-radius: 5px;
+  }
+
+  .secondBox {
+    background-color: #ec407a;
+    max-width: 42%;
+    height: 20%;
+    position: absolute;
+    top: 67px;
+    left: 8rem;
+    border-radius: 5px;
+  }
+  .textH {
+    font-family: system-ui;
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .textB {
+    padding: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 50px;
+    left: 59px;
+    font-family: system-ui;
+  }
+}
+
+@media (max-width: 426px) {
+  .firstBox {
+    background-color: white;
+    min-width: 70%;
+    min-height: 70%;
+    position: relative;
+    top: 100px;
+    left: 46px;
+    border-radius: 5px;
+  
+}
+.secondBox {
+  background-color: #ec407a;
+  width: 45%;
+  height: 11%;
+  position: absolute;
+  top: 76px;
+  left: 6rem;
+  border-radius: 5px;
+}
+.textH {
+  font-family: system-ui;
+  font-size: 10px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.textB {
+  padding: 6px;
+  font-weight: 390;
+  position: absolute;
+  top: 44px;
+  left: 18px;
+  font-family: system-ui;
+}
+
+@media (max-width:320px) {
+  .secondBox {
+    background-color: #ec407a;
+    width: 39%;
+    height: 11%;
+    position: absolute;
+    top: 76px;
+    left: 6rem;
+    border-radius: 5px;
+  }
+  .textH {
+    font-family: system-ui;
+    font-size: 10px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+}
